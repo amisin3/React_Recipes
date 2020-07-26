@@ -1,0 +1,480 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a0522d;
+  margin: 0;
+  padding: 0;
+  padding-top: 2rem;
+}
+
+.sub-main {
+  background-color: #dcdcdc;
+}
+
+.website-name {
+}
+
+/* Navbar */
+.navbar {
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #bdbdbd;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* FormPart */
+.formPart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputHeader {
+}
+
+.inputField {
+  width: 49rem;
+  margin: auto;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.search-btn {
+  margin: 0;
+  border-left: none;
+}
+
+.search-section {
+  padding-top: 1rem;
+}
+
+.pc-site {
+  display: none;
+}
+
+.mob-site {
+  display: block;
+}
+
+.results {
+  margin: 3rem auto 3rem;
+}
+
+.mob-grid {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.mob-row {
+  padding: 0;
+}
+
+.food_video {
+  margin: auto;
+  width: 90%;
+  height: 20%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+/* DashboardItem.js */
+.card-group {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  cursor: pointer;
+  border: 4px solid whitesmoke;
+  color: white;
+}
+
+.food-image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.food-info {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.2s ease-in;
+  opacity: 1;
+}
+
+.food-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.food-rating {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.2s ease-in;
+  opacity: 1;
+}
+
+.recipe-title {
+  display: block;
+  font-size: 40px;
+  text-align: center;
+}
+
+.recipe-readyInMinutes {
+  font-size: 14px;
+  text-align: center;
+}
+
+.recipe-food-weight {
+  text-align: center;
+}
+
+.instructions-header {
+  font-size: 20px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
+
+.recipe-instructions {
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.veg {
+  margin-bottom: 20px;
+}
+
+.non-veg {
+  margin-bottom: 20px;
+}
+
+.sub-part {
+  margin-top: 11px;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .App {
+    text-align: center;
+  }
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* Website Name */
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #a0522d;
+    margin: 0;
+    padding: 0;
+    padding-top: 2rem;
+  }
+
+  .sub-main {
+    background-color: #dcdcdc;
+  }
+
+  .website-name {
+  }
+
+  /* Navbar */
+  .navbar {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #bdbdbd;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  /* FormPart */
+  .formPart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .inputHeader {
+  }
+
+  .inputField {
+    width: 49rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-section {
+    padding-top: 1rem;
+  }
+
+  .search-btn {
+    border-left: none;
+  }
+
+  /* results */
+  .results {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    padding-left: 3rem;
+  }
+
+  .card-group {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    cursor: pointer;
+    border: 4px solid whitesmoke;
+    color: white;
+  }
+
+  .food-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .food-info {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.2s ease-in;
+    opacity: 0;
+  }
+
+  .food-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .food-rating {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.2s ease-in;
+    opacity: 0;
+    font-size: 14px;
+  }
+
+  .card-group:hover .food-info {
+    opacity: 1;
+  }
+
+  .card-group:hover .food-rating {
+    opacity: 1;
+  }
+  /* SearchPart.js */
+
+  .searching {
+    background-color: #dcdcdc;
+  }
+
+  /* SearchItemDetail.js */
+
+  .modal-header {
+    text-align: center;
+  }
+
+  .modal-content {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    border: 3px solid grey;
+    padding: 19px;
+  }
+
+  .modal-description {
+    text-align: center;
+    margin: auto;
+    width: 95%;
+    border: 3px solid black;
+    padding: 19px;
+    padding-bottom: 0.1rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    background-color: #f2f2f2;
+  }
+
+  .modal-ingredient {
+    width: 95%;
+    padding: 1.2rem;
+    font-size: 1.5rem;
+    margin: auto;
+  }
+
+  .ingredient-image {
+    margin: auto;
+  }
+
+  /* DashboardItemDetails */
+  .recipe-instructions {
+    font-size: 1.2rem;
+    margin: 1rem;
+    text-align: justify;
+  }
+
+  .recipe-type-veg {
+    background-color: #73a5c6;
+    color: white;
+    margin-top: 1.5rem;
+  }
+
+  .recipe-type-non-veg {
+    background-color: #73a5c6;
+    color: white;
+    margin-top: 1.5rem;
+  }
+
+  .recipe-title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .recipe-readyInMinutes {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+  }
+
+  .recipe-food-weight {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+  }
+
+  .recipe-dishTypes {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .ingredients-header {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+
+  .instructions-header {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+
+  .recipe-ingredients {
+    text-align: left;
+    margin: 2rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+
+  .modal-details {
+    background-color: antiquewhite;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  /* IngredientInstructions.js */
+
+  .spacing {
+    padding-bottom: 1rem;
+  }
+
+  .pc-site {
+    display: block;
+  }
+
+  .mob-site {
+    display: none;
+  }
+
+  .food_video {
+    margin: auto;
+    width: 75%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .food_column {
+    margin: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+}
